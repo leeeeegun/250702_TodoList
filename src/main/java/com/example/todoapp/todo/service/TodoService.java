@@ -2,11 +2,11 @@ package com.example.todoapp.todo.service;
 
 import com.example.todoapp.todo.entity.Todo;
 import com.example.todoapp.todo.repository.TodoRepository;
-import lombok.Setter;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Setter
+@Service
 public class TodoService {
 
     private final TodoRepository todoRepository;
